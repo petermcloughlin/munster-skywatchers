@@ -4,13 +4,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Body Styles */
+body {
+    color:#a7a5a5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 /* Header */
 header {
     background-color: #353340;
 }
 /* Main Content */
 main {
-    background-color: #a7a5a5;
+    /* Cover any remaining space to move the footer to the bottom on screen */
+    flex: 1 0 auto; 
+    background-color: #CBC8D3;/*#E6E3EF;*/ /*#a7a5a5;*/ 
 }
 /* Footer */
 footer {
