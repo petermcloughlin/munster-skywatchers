@@ -80,3 +80,10 @@ main {
 footer {
     background-color: #353340;
 }
+/* Media queries for larger screen sizes */
+/* Set Main Content margin-top to fit screens wider than 440px */
+@media screen and (min-width: 440px) {
+    main {
+        margin-top: 47px;
+    }
+}
