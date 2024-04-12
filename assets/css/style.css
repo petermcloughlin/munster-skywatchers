@@ -19,7 +19,7 @@ body {
 header {
     background-color: #353340; 
     width: 100%;
-    padding: 0 0.5rem;
+    padding: 0 .5rem;
     position: fixed;
     z-index: 99;    
     display: flex; 
@@ -85,5 +85,28 @@ footer {
 @media screen and (min-width: 440px) {
     main {
         margin-top: 47px;
+    }
+}
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }    
+}
+@media screen and (min-width: 992px){
+    #menu a:hover {
+        border-bottom: 1px solid #ffffff;
     }
 }
