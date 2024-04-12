@@ -10,7 +10,7 @@
 body {
     color:#353340;
     min-height: 100vh;
-    display: flex;
+    display: flex;    
     flex-direction: column;
     /* Add Poppins font reference from Google fonts */
     font-family: 'Poppins', sans-serif;    
@@ -63,11 +63,18 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
+#nav-toggle {
+    display: none; /* Hide the checkbox */
+}
+.nav-toggle-label {
+    font-size: 2rem;
+}
 /* Main Content */
 main {
     /* Cover any remaining space to move the footer to the bottom on screen */
     flex: 1 0 auto; 
     background-color: #CBC8D3;/*#E6E3EF;*/ /*#a7a5a5;*/ 
+    margin-top: 94px;
 }
 /* Footer */
 footer {
