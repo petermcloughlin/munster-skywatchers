@@ -38,6 +38,12 @@ h1 {
     margin-bottom: 1em;
     font-size: 110%;
 }
+#menu > li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 1px solid #ffffff;
+}
 /* Main Content */
 main {
     /* Cover any remaining space to move the footer to the bottom on screen */
