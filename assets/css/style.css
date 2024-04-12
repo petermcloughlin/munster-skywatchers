@@ -77,8 +77,18 @@ main {
     margin-top: 94px;
 }
 /* Footer */
-footer {
+#social-networks {    
     background-color: #353340;
+    display: flex;
+    text-align: center;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-networks i {
+    color:#ffffff;
+    font-size: 150%;
+    padding: 5%;
 }
 /* Media queries for larger screen sizes */
 /* Set Main Content margin-top to fit screens wider than 440px */
