@@ -103,10 +103,17 @@ footer {
     }
     .nav-toggle-label {
         display: none;
-    }    
+    }  
+    /* Push main content down to accomodate larger header */ 
+    main {
+        margin-top: 74px;
+    }     
 }
 @media screen and (min-width: 992px){
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
+    }
+    main {
+        margin-top: 74px;
     }
 }
