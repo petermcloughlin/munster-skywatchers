@@ -19,18 +19,23 @@ body {
 header {
     background-color: #353340; 
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     position: fixed;
-    z-index: 100;     
+    z-index: 99;    
+    display: flex; 
+    justify-content: space-between;
+    align-items: baseline;
 }
 header a {
     color: #ffffff;
     text-decoration: none;
 }
+header label {
+    color:#ffffff;
+}
 h1 {
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-transform: uppercase;    
 }
 #menu {
     letter-spacing: 2px;
@@ -43,6 +48,20 @@ h1 {
 }
 .active {
     border-bottom: 1px solid #ffffff;
+}
+/* Nav bar styles with dropdown toggle */
+nav {
+    background-color: #353340;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top:100%;    
+}
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
 }
 /* Main Content */
 main {
