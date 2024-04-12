@@ -8,16 +8,19 @@
 }
 /* Body Styles */
 body {
-    color:#a7a5a5;
+    color:#353340;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Add Poppins font reference from Google fonts */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;    
 }
 /* Header */
 header {
     background-color: #353340;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
 }
 /* Main Content */
 main {
