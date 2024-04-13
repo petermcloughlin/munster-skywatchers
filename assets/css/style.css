@@ -8,7 +8,7 @@
 }
 /* Body Styles */
 body {
-    color:#353340;
+    color:#040404;
     min-height: 100vh;
     display: flex;    
     flex-direction: column;
@@ -17,7 +17,7 @@ body {
 }
 /* Header */
 header {
-    background-color: #353340; 
+    background-color: #040404; 
     width: 100%;
     padding: 0 .5rem;
     position: fixed;
@@ -51,7 +51,7 @@ h1 {
 }
 /* Nav bar styles with dropdown toggle */
 nav {
-    background-color: #353340;
+    background-color: #040404;
     position: absolute;
     width: 100%;
     left: 0;
@@ -73,12 +73,12 @@ nav {
 main {
     /* Cover any remaining space to move the footer to the bottom on screen */
     flex: 1 0 auto; 
-    background-color: #CBC8D3;/*#E6E3EF;*/ /*#a7a5a5;*/ 
+    background-color: #ffffff;/*#E6E3EF;*/ /*#a7a5a5;*/ 
     margin-top: 94px;
 }
 /* Footer */
 #social-networks {    
-    background-color: #353340;
+    background-color: #040404;
     display: flex;
     text-align: center;
     padding: 10px 0;
