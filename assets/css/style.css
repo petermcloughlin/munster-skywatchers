@@ -76,6 +76,13 @@ main {
     background-color: #ffffff;/*#E6E3EF;*/ /*#a7a5a5;*/ 
     margin-top: 94px;
 }
+/* Hero Background Image */
+#hero {
+    height: 700px;
+    width: 100%;
+    background: url('../images/moonsun.webp') no-repeat center center/cover;
+}
+
 /* Footer */
 #social-networks {    
     background-color: #040404;
