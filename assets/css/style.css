@@ -82,7 +82,13 @@ main {
     width: 100%;
     background: url('../images/moonsun.webp') no-repeat center center/cover;
 }
-
+#hero-title {
+    color: #040404;
+    font-family: inherit;    
+    font-size: 120%;
+    justify-content: center;
+    text-align: center;
+}
 /* Footer */
 #social-networks {    
     background-color: #040404;
