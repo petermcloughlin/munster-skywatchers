@@ -80,7 +80,7 @@ main {
 }
 /* Hero Background Image */
 #hero {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url('../images/moonsun.webp') no-repeat center center/cover;
 }
@@ -193,9 +193,9 @@ main {
     }
 
     #joinus-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;        
+        max-width: 450px;
+        position:absolute;
+        left: 20%;        
     }
     .joinus-btn {
         color:#ffffff;
