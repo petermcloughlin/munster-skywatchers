@@ -123,6 +123,16 @@ main {
     display: flex;
     justify-content: space-between;
 }
+.joinus-btn {
+    color:#ffffff;
+    border: 2px solid #ffffff;
+    background-color:transparent;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 120%;
+    padding: 10px;
+}
+
 /* Footer */
 #social-networks {    
     background-color: #040404;
@@ -164,7 +174,20 @@ main {
     /* Push main content down to accomodate larger header */ 
     main {
         margin-top: 74px;
-    }     
+    }   
+    /* Form styling */  
+    #join-us {
+        position: relative;
+        background-position: center;        
+    }
+
+    #joinus-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 80px;
+    }
+    
 }
 @media screen and (min-width: 992px){
     #menu a:hover {
