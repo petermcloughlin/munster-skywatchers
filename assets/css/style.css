@@ -116,8 +116,6 @@ main {
     font-size: 150%;
     padding-right: 10px;
 }
-
-
 .text-input {
     background:transparent;
     color:#ffffff;
@@ -127,9 +125,13 @@ main {
     font-family: inherit;
     padding: 3px;
 }
+.text-input:hover {
+    border-color: goldenrod;
+}
 .radio-buttons {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .joinus-btn {
     color:#ffffff;
