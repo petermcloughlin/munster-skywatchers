@@ -94,10 +94,24 @@ main {
 }
 .reasons {
     padding: 25px 20px;
+    justify-content: center;
+    text-align: center;
 }
 .reasons > h3 > i {
     font-size: 150%;
     padding-right: 10px;
+}
+.meet-up {
+    padding: 25px 20px;
+    justify-content: center;
+    text-align: center;
+}
+.meet-up > h3 > i {
+    font-size: 150%;
+    padding-right: 10px;
+}
+.meet-up ul {
+    list-style: none;
 }
 /* Form */
 #join-us {
