@@ -95,6 +95,10 @@ main {
 .reasons {
     padding: 25px 20px;
 }
+.reasons > h3 > i {
+    font-size: 150%;
+    padding-right: 10px;
+}
 /* Form */
 #join-us {
     background: url('../images/stargazing.webp');
