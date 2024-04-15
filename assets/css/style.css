@@ -84,10 +84,11 @@ main {
 }
 #hero-title {
     color: #040404;
-    font-family: inherit;    
-    font-size: 120%;
+    font-family: 'Poppins', sans-serif;    
+    font-size: 140%;
     justify-content: center;
     text-align: center;
+    letter-spacing: 2px;
 }
 /* Footer */
 #social-networks {    
