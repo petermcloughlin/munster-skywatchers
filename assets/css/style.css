@@ -75,6 +75,8 @@ main {
     flex: 1 0 auto; 
     background-color: #ffffff;/*#E6E3EF;*/ /*#a7a5a5;*/ 
     margin-top: 94px;
+    display: flex;
+    flex-direction: column;
 }
 /* Hero Background Image */
 #hero {
@@ -89,6 +91,24 @@ main {
     justify-content: center;
     text-align: center;
     letter-spacing: 2px;
+}
+
+/* Form */
+#join-us {
+    background: url('../images/stargazing.webp');
+    background-size: cover;
+    background-position: 80%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+#joinus-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.5);
+    padding: 30px;
+}
+#joinus-form>h2 {
+    color:#ffffff;
+    margin-bottom: 10px;
 }
 /* Footer */
 #social-networks {    
