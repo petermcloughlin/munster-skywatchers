@@ -114,10 +114,10 @@ main {
 #joinus-form > h2 > i {
     color:goldenrod;
     font-size: 150%;
-}
-i {
     padding-right: 10px;
 }
+
+
 .text-input {
     background:transparent;
     color:#ffffff;
