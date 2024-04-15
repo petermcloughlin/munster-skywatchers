@@ -207,7 +207,7 @@ main {
     }
     .joinus-btn:hover {
         background-color: darkgreen;
-    }
+    }    
 }
 @media screen and (min-width: 992px){
     #menu a:hover {
