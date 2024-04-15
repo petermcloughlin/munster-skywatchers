@@ -124,6 +124,7 @@ main {
     width:100%;
     font-family: inherit;
     padding: 3px;
+    margin-bottom: 10px;
 }
 .text-input:hover {
     border-color: goldenrod;
