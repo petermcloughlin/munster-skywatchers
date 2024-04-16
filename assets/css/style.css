@@ -199,6 +199,7 @@ main {
         margin-top: 47px;
     }
 }
+/* Larger screens (tablets and larger )*/
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -220,6 +221,28 @@ main {
     main {
         margin-top: 74px;
     }   
+    /* Hero text */
+    #hero-text {
+        width: 350px;        
+    }
+    /* Align the reasons divs using flex */
+    #join-reasons,
+    #join-meetings {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    #join-reasons>div,
+    #join-meetings>div {
+        width: 75%;
+    }
+
+    
     /* Form styling */  
     #join-us {
         position: relative;
@@ -252,3 +275,4 @@ main {
         margin-top: 74px;
     }
 }
+
