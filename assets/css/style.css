@@ -82,7 +82,7 @@ main {
 #hero {
     height: 500px;
     width: 100%;
-    background: url('../images/moonsun.webp') no-repeat center center/cover;
+    background: url('../images/moonsun.webp') no-repeat center center/cover;  
 }
 #hero-title {
     color: #ffffff;
@@ -100,18 +100,10 @@ main {
 .reasons > h3 > i {
     font-size: 150%;
     padding-right: 10px;
+    color:gold;
 }
-.meet-up {
-    padding: 25px 20px;
-    justify-content: center;
-    text-align: center;
-}
-.meet-up > h3 > i {
-    font-size: 180%;
-    padding-right: 10px;
-}
-.meet-up ul {
-    list-style: none;
+.reasons > ul {
+    list-style-type: none;
 }
 #why-join {
     background: url('../images/sky.webp') no-repeat center center/cover;
@@ -136,7 +128,7 @@ main {
     margin-bottom: 10px;
 }
 #joinus-form > h2 > i {
-    color:goldenrod;
+    color:gold;
     font-size: 150%;
     padding-right: 10px;
 }
