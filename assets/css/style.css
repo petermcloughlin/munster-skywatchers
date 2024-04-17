@@ -124,7 +124,8 @@ main {
     list-style-type: none;
 }
 #why-join {
-    background: url('../images/sky.webp') no-repeat center center/cover;
+    background-color: #040404;
+    /* background: url('../images/darksky.webp') no-repeat center center/cover; */
     color:#ffffff;
 }
 /* Form */
