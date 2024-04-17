@@ -95,7 +95,7 @@ main {
 }
 #hero-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgb(255,204,0,0.4);   
+    background-color: rgb(255,204,0,0.6);   
     position: absolute;
     bottom: 10px;
     width: 80%;
