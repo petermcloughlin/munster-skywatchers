@@ -136,6 +136,10 @@ main {
 #photos {
     line-height: 0;   
 }
+/* hide the overlay div on smaller screens like mobile, tablet */
+.overlay {
+    display: none;
+}
 /* Form */
 #join-us {
     background: url('../images/observers.webp');
@@ -258,12 +262,12 @@ main {
         position: absolute; 
         bottom: 0; 
         background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, 0.1); /* Black see-through */
+        background: rgba(0, 0, 0, 0.1); /* Black see through with low opacity */
         color: #f1f1f1; 
         width: 100%;
         transition: .5s ease;
         opacity:0;
-        color: white;
+        color: #ffffff;
         font-size: 30px;
         padding: 50px;
         text-align: center;
