@@ -130,9 +130,11 @@ main {
 }
 /* Gallery */
 #photos img {
-    width: 100%;
+    width: 100%;   
 }
-
+#photos {
+    line-height: 0;   
+}
 /* Form */
 #join-us {
     background: url('../images/stargazing.webp');
