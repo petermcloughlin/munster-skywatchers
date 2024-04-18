@@ -275,7 +275,11 @@ main {
     .joinus-btn:hover {
         background-color: darkgreen;
         cursor: pointer;
-    }    
+    }   
+    /* Add hover styling to social media icons for laptops plus */ 
+    #social-networks i:hover {
+        color:gold;
+    }
 }
 @media screen and (min-width: 992px){
     #menu a:hover {
