@@ -138,7 +138,7 @@ main {
 }
 /* hide the overlay div on smaller screens like mobile, tablet */
 .overlay {
-    visibility:hidden;
+    display: none;
 }
 /* Form */
 #join-us {
@@ -258,8 +258,8 @@ main {
     .container {
         position: relative;
     }
-    .overlay {
-        visibility: visible;
+    .overlay {       
+        display: block;          
         position: absolute; 
         bottom: 0; 
         background: rgb(0, 0, 0);
