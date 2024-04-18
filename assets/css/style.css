@@ -131,6 +131,7 @@ main {
 /* Gallery */
 #photos img {
     width: 100%;   
+    margin-bottom: 2px;
 }
 #photos {
     line-height: 0;   
