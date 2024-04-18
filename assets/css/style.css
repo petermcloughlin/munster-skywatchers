@@ -146,13 +146,14 @@ main {
     background-size: cover;
     background-position: 80%;
     padding: 20px 10% 0 10%;
-    flex-grow: 1;
+    flex-grow: 1;    
 }
 #joinus-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.5);
     padding: 30px;
     max-width: 400px;
+    border-radius: 30px;
 }
 #joinus-form>h2 {
     color:#ffffff;
@@ -254,9 +255,9 @@ main {
     #join-meetings>div {
         width: 75%;
     }
-    /* Gallery styling */
+    /* Gallery styling */     
     .container {
-        position: relative;
+        position:relative;      
     }
     .overlay {       
         display: block;          
