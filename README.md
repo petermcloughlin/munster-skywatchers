@@ -4,6 +4,15 @@ The url for the deployed site as accessible [here](https://petermcloughlin.githu
 
 ![AmIResponsiveImage](docs/readme_images/Am_I_Responsive.PNG "Am I responsive image")
 
+* Contents
+    * Features
+    * User Experience / User Interface
+    * Testing
+    * Deployment
+    * Bugs / Fixes
+    * Citations of Sources
+
+
 ## Features
 The Munster Skywatchers website is comprised of three webpages:
 * index.html
@@ -13,7 +22,7 @@ The Munster Skywatchers website is comprised of three webpages:
 * joinus.html
     - The joinus.html page contains a form which allows interested visitors, to sign up to our group and be notified of upcoming events which they can attend. 
 ### Common features 
-    Both the navbar and footer are common features to the website giving a simple flow to the user experience as they navigate the website. The navbar utiltises a collapsed burger icon image on mobile devices , expanding to show the websites navigation pages on the top right of each page on larger devices such as tablets, laptops and desktops.
+Both the navbar and footer are common features to the website giving a simple flow to the user experience as they navigate the website. The navbar utiltises a collapsed burger icon image on mobile devices , expanding to show the websites navigation pages on the top right of each page on larger devices such as tablets, laptops and desktops.
 * Navbar
 ![NavbarImage](docs/readme_images/Navbar.PNG "Navbar Image")
 
@@ -27,6 +36,19 @@ The index.html or landing page uses a high resolution hero image of the moon to 
 ![LandingPageImage](docs/readme_images/Homepage1.PNG "HomePage Image")
 
 ![LandingPageInformationImage](docs/readme_images/Homepage2.PNG "HomePage Information Image")
+
+### Gallery Page
+The gallery.html contains a list of images relating to space, the solar system, celestial events and sky watchers with a final image of coffee mugs on a table reminding the user that there is a social aspect to the the sky watch meet ups.
+The images are separated by a small white space on mobiles to define the individuality of each image. I opted to keep the enlargened images with a vertical page scroll on larger screen sizes such as laptops and desktops with a ccs overlay descriptive text block which appears and disappears as the user hovers their mouse over each image. I felt that the enlargened images would ensure the high resolution would be more pleasing to the user , visually.
+
+![GalleryPageImage](docs/readme_images/Gallery.PNG "Gallery Page Image")
+
+### Join Us Page
+The last page is the joinus.html, where the user gets the opportunity to join the Skywatcher group by completing the form,filling in their Firstname, Lastname, Email, Contact number and selecting Private or Public to notify that they use their own vehicle or public transport when travelling to the Skywatch meet-ups. There is a gold hover effect on each text-input box when the user hovers their mouse over each text-input box to enhance the user experience when interacting with the UI on laptops and desktops. The transparent Join Us button turns green when the users mouse enters the button element on large screens for a more improved, intuitive user experience.
+Each text-input box , inluding the radio button options have 'required' attribute that displays an alert promtp to the user if they attempt submit the form without completing these fields. 
+
+![JoinUsPage](docs/readme_images/JoinUs.PNG "JoinUs Page Image")
+
 
 
 
