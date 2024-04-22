@@ -1,2 +1,2 @@
-#Munster Skywatchers 
+# Munster Skywatchers 
 The Munster Skywatchers website was designed with astronomy enthusiasts in mind as a way to link up people with a similar interest with a view to meeting up every few weeks for night sky watching events where they can meet up for coffee and view scheduled events in the night sky.
