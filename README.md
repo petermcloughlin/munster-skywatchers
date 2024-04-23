@@ -1,4 +1,4 @@
-# Munster Skywatchers 
+# Munster Skywatchers
 The Munster Skywatchers website was designed with astronomy enthusiasts in mind as a way to link up people with a similar interest with a view to meeting up every few weeks for night sky watching events where they can meet up for coffee and view scheduled events in the night sky. Whilst using Munster as its base for sky watching events, it is open to all who are interested in signing up to join the group. The purpose of the meet ups is to educate group members on the various objects and events that are happening within our solar system and beyond. There is also a social aspect to the gatherings with coffee meet-ups as a form of meet and greet which is very helpful for new members to the group, along with the outlining of the importance of safety as meet-ups generally take place in one of four locations at night throughout the Munster region.
 The url for the deployed site as accessible [here](https://petermcloughlin.github.io/munster-skywatchers/).
 
@@ -48,6 +48,36 @@ The last page is the joinus.html, where the user gets the opportunity to join th
 Each text-input box , inluding the radio button options have 'required' attribute that displays an alert promtp to the user if they attempt submit the form without completing these fields. 
 
 ![JoinUsPage](docs/readme_images/JoinUs.PNG "JoinUs Page Image")
+
+## User Experience / User Interface
+
+When designing the website at the planning stage, I tried to keep the target audience in mind when designing the UI display. The target audience in this case would predominently be astronomy enthusiasts, experts and novices, who would like to enjoy the educational and social experience that comes with signing up to be a member of the Skywatcher group. The name 'Munster Skywatchers' is to place emphasis on the locations of our viewing points across the Munster region of Ireland.
+
+The colour selection of #040404 for the backgrounds, #ffffff for text and some icons , along with #gold and #goldrun for icons and text-input hover effect worked well with the high resolution image of the moon on the landing page and the background image on the joinus.html page.
+
+I checked the color contrasts using [webaim.org](https://webaim.org/resources/contrastchecker/) to ensure it would provide enough contrast for visually impaired visitors to the site.
+
+### User Story
+As a visitor, the user of the website;
+* will want to discover more information about what the Munster Skywatchers do
+* will see some images that visually correlate the text content to their understanding of what is involved in Skywatch meet-ups.
+* will be able to avail of the option to join the group by competing the form on the last page to become a member and available of notifications of upcoming Skywatch meetings
+* will be able to potentially view the groups social media links to gain a greater sense of what is involved, with access to the icons in the footer of the website. (For the purposes of this website, the footer social media links only take to the user to the standard social media sign in pages)
+
+### Wireframes
+At the initial stage of planning, I created some mobile-first approach wireframes to demonstrate a visual display of the user interface.
+Below are a snapshot of the wireframes, one for each page on the website. The final project deviated slightly from the exact design laid out.
+* [Index.html](docs/readme_images/Index_wireframe.PNG)
+* [Gallery.html](docs/readme_images/Gallery_wireframe.PNG)
+* [JoinUs.html](docs/readme_images/JoinUs_wireframe.PNG)
+
+## Testing
+The testing of the Munster Skywatchers website was ongoing throughout the development stages, including the use of element inspection for addition of new elements to the pages before committing to GitHub. Testing of the website included the following approaches;
+* Manual Testing
+* HTML Validation
+* CSS Validation
+* Lighthouse Inspection
+* Responsiveness
 
 
 
