@@ -79,6 +79,12 @@ The testing of the Munster Skywatchers website was ongoing throughout the develo
 * Lighthouse Inspection
 * Responsiveness
 
+### Manual Testing
+As a manual test of the website, I accessed the delpoyed url on a variety of devices such as iPhone, Android mobile, Tablet, iPad, laptop and Desktop to view the sites visual responsiveness, access to the footer links, completion of the joinus.html form and toggling of the burger icon and navbar links.
+The form validation alerts appeared to work fine on larger devices such as laptops and dekstops, with the hover effect on the text-input boxes turning a border color of gold and the submit button turning dark-green on hover.
+
+
+
 
 
 
